@@ -21,6 +21,8 @@ https://hub.docker.com/repository/docker/danlkv/qtensor
 
 ```python
 from qtensor import QAOA_energy
+import networkx as nx
+import numpy as np
 
 G = nx.random_regular_graph(3, 10)
 gamma, beta = [np.pi/3], [np.pi/2]
